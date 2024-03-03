@@ -1,0 +1,65 @@
+
+/* Estilo específico para a página index1 */
+body.index1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('imagens/inicio.jpg') center/cover no-repeat; /* Substitua 'seu-caminho-da-imagem.jpg' pelo caminho da sua imagem */
+    color: #fff;
+}
+
+body.index1 form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+body.index1 h2 {
+    color: #ff0000;
+}
+
+body.index1 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+body.index1 input,
+body.index1 button {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+
+body.index1 button {
+    background-color: #ff0000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body.index1 button:hover {
+    background-color: #990000;
+}
+
+body.index1 pre {
+    white-space: pre-wrap;
+    overflow: auto;
+    max-height: 300px;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    margin: 0;
+    text-align: left;
+}
+
+body.index1 p {
+    color: #fff;
+}
